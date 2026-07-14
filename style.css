@@ -16,16 +16,18 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
-  background: radial-gradient(circle at top left, rgba(59, 130, 246, 0.18), transparent 24%),
-    radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.16), transparent 20%),
-    linear-gradient(165deg, #eef2ff 0%, #dbeafe 40%, #e0f2fe 100%);
+  background:
+    linear-gradient(120deg, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.2) 45%, rgba(255,255,255,0.7) 100%),
+    url("https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1400&q=80") center/cover no-repeat;
   background-attachment: fixed;
   color: #111827;
 }
 
 .container {
   width: min(420px, 100%);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 24px;
   box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
   padding: 2rem;
